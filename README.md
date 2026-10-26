@@ -52,7 +52,20 @@ podés comparar una versión con otra con las mismas preguntas.
 | `v0.5` | `v05_equipo.py` | `pregunta: str` | lo de `v0.4` más `aprobada: bool`: una persona aprueba antes de responder |
 | `v1.0` | `v10_produccion.py` | `pregunta: str` | lo de `v0.5` más `costo_usd` y una traza por pregunta en `logs/` |
 
-Las prácticas de cada módulo dicen cómo construir cada una: https://juanfkurucz.com/ucu-la/
+Antes de `v0.1`, en la clase 2, escribís también `m2_extraccion.py` (práctica M2). Las prácticas de cada módulo
+dicen cómo construir cada versión, paso a paso: https://juanfkurucz.com/ucu-la/
+
+## Las entregas
+
+En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve comentarios. Qué se espera en cada
+una, con ejemplos: la consigna del proyecto y la tarea de cada entrega, en el aula virtual.
+
+| Entrega | Hasta | Versión | Lo que tiene que funcionar |
+|---|---|---|---|
+| 1 | mar 3/11, 23:59 | `v0.1` | Le preguntás al modelo sobre tu tema y responde; queda guardado qué, cuánto tardó y cuántos tokens usó |
+| 2 | mar 10/11, 23:59 | `v0.2` | Responde con tus documentos y dice de cuál sacó cada dato; si no está, lo dice |
+| 3 | mar 17/11, 23:59 | `v0.3`, `v0.4` | Recuerda la conversación y elige entre tus documentos, internet y una calculadora |
+| Final | dom 22/11, 23:59 | `v0.5`, `v1.0` | Un equipo de agentes con una persona que aprueba; sabés cuánto cuesta y otra persona lo corre con tu README |
 
 ## Reglas
 
