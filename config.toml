@@ -1,0 +1,9 @@
+# Cambiar de proveedor = cambiar esta línea. Formato proveedor:modelo.
+# Ejemplos: google_genai:gemini-3.5-flash-lite · openai:gpt-5.4-nano
+#           anthropic:claude-haiku-5-5 · ollama:qwen3.5:2b (local, gratis)
+model = "google_genai:gemini-3.5-flash-lite"
+temperature = 0.0  # solo llega a Ollama y a Gemini 3.1 Flash-Lite: Gemini 3.5 Flash-Lite la ignora; gpt-5.x y claude-*-5-5 la rechazan
+max_salida = 300   # tope de tokens de salida por llamada: cuida tu saldo
+# Búsqueda web (desde la clase 5): "real" usa DuckDuckGo; "grabada" usa una respuesta
+# guardada (sin internet ni límites); "caida" (sin tilde) simula que la web no responde.
+web = "real"

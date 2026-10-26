@@ -1,0 +1,5 @@
+{
+  "nota": "Respuesta grabada para trabajar sin red. No prueba que tu clave o tu conexión funcionen.",
+  "respuesta": "Un token es un fragmento de texto (una palabra, parte de una palabra o un signo) que el modelo procesa como unidad.",
+  "usage": {"input_tokens": 14, "output_tokens": 27, "total_tokens": 41}
+}

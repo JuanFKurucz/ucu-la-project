@@ -1,0 +1,11 @@
+.env
+# también .env.txt (Windows esconde la extensión al copiar) y cualquier otra copia con la clave
+.env.*
+!.env.example
+.venv/
+.chroma/
+logs/
+__pycache__/
+__marimo__/
+# Mac: el Finder crea .DS_Store en cada carpeta que abrís; no es tuyo ni del proyecto
+.DS_Store
