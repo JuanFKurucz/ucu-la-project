@@ -15,6 +15,9 @@ uv sync
 uv run python check_setup.py --fixture
 ```
 
+   `uv sync` instala las librerías del proyecto, como instalar un conector en Power BI. `--fixture` prueba todo sin
+   tu clave y sin gastar nada.
+
 4. Copiá `.env.example` como `.env` y pegá **solo** tu clave adentro. Después:
 
 ```bash
@@ -40,8 +43,9 @@ mi-asistente/
 
 ## Lo que escribís en cada versión
 
-Cada versión es un archivo nuevo con una función `responder`. Lo que entra y lo que sale está fijo, así
-podés comparar una versión con otra con las mismas preguntas.
+Cada versión es un archivo nuevo con una función `responder`. Pensala como una consulta con parámetros: entra
+una pregunta y sale una fila con columnas fijas (un `dict`). Como las columnas no cambian, comparás una versión
+con otra con las mismas preguntas, igual que dos reportes contra la misma tabla.
 
 | Versión | Archivo | Entra | Sale |
 |---|---|---|---|
@@ -53,7 +57,9 @@ podés comparar una versión con otra con las mismas preguntas.
 | `v1.0` | `v10_produccion.py` | `pregunta: str` | lo de `v0.5` más `costo_usd` y una traza por pregunta en `logs/` |
 
 Antes de `v0.1`, en la clase 2, escribís también `m2_extraccion.py` (práctica M2). Las prácticas de cada módulo
-dicen cómo construir cada versión, paso a paso: https://juanfkurucz.com/ucu-la/
+dicen cómo construir cada versión, paso a paso: https://juanfkurucz.com/ucu-la/. Para escribir cada archivo
+podés pedirle ayuda a tu asistente de IA; lo que tiene que pasar lo dice la práctica, y cada renglón lo tenés
+que poder explicar.
 
 ## Las entregas
 
