@@ -50,12 +50,15 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 
 **En BI sería:** una consulta programada que deja su registro de ejecución: qué pidió, qué devolvió, cuánto tardó y cuánto costó (los tokens son lo que se cobra).
 
-| Si hacés esto | Tiene que pasar |
+*Ejemplos con una cooperativa: en tu tema cambian las palabras, no lo que tiene que pasar.*
+
+| Cuando | Tiene que pasar |
 |---|---|
-| Le preguntás «¿Qué es una alucinación en un LLM?» | Responde en dos frases, la respuesta aparece de a poco y ves cuánto tardó y cuántos tokens usó |
-| Le hacés tus 5 preguntas | Queda un registro con las 5: pregunta, respuesta, tiempo y tokens |
-| El modelo no responde (por ejemplo, le pediste uno que no existe) | Avisa el error en castellano, reintenta y sigue |
-| Le das 10 textos de tu tema | Saca de cada uno el dato que pediste (quién y cuánto) y te dice cuántos acertó |
+| Un socio de la cooperativa le pregunta «¿Cuándo es la próxima asamblea?» | Responde en dos frases, que van apareciendo mientras las escribe, y vos ves cuánto tardó y cuánto costó |
+| A fin de mes querés saber qué le preguntaron y cuánto gastó | Tenés el registro de cada consulta: qué le preguntaron, qué respondió, cuánto tardó y cuánto costó |
+| El servicio del modelo falla (se cayó, o se terminó la cuota del día) | Te avisa en castellano qué pasó, lo intenta de nuevo y sigue con la próxima pregunta |
+| Le pasás una noticia: «La cooperativa Las Acacias informó que cerró 2025 con 1.250 socios activos» | Te devuelve el dato listo para una tabla: organización «Cooperativa Las Acacias», cifra 1250 |
+| Le pasás 10 noticias que ya revisaste a mano | Sabés en cuántas sacó bien el dato |
 
 **Qué subís.** Tu asistente andando, tus textos y preguntas de prueba, y tu página de evidencia de la v0.1.
 
@@ -63,7 +66,7 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 
 - ¿Qué cambiaste en el pedido para que extraiga bien, y cuántos aciertos hubo antes y después?
 - ¿Qué configuración elegís (modelo o instrucciones) y por qué?
-- ¿Qué pasó cuando el modelo no respondió? ¿Sirvió reintentar?
+- Cuando simulaste la falla del servicio, ¿qué hizo tu asistente? ¿Sirvió intentarlo de nuevo?
 - ¿Cuánto costaría por mes, a 1000 preguntas por día? (con el precio y su fecha)
 - Cómo usaste IA: qué aceptaste, corregiste o rechazaste.
 
@@ -75,11 +78,13 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 
 **En BI sería:** un reporte con la fuente al pie de cada número; si el dato no está en tus tablas, lo dice en vez de rellenar.
 
-| Si hacés esto | Tiene que pasar |
+*Ejemplos con una cooperativa: en tu tema cambian las palabras, no lo que tiene que pasar.*
+
+| Cuando | Tiene que pasar |
 |---|---|
-| Le preguntás algo que está en tus documentos | Responde con tus documentos y nombra el documento de cada dato |
-| Le preguntás algo que no está en tus documentos | Dice que no lo encuentra, sin inventar |
-| Le hacés tus preguntas de prueba, sin y con documentos | Sabés cuántas respondió bien en cada caso |
+| Un socio pregunta «¿Cuántos días tengo para presentar un reclamo?», y la respuesta está en el reglamento | Responde con el plazo del reglamento y dice de qué documento lo sacó, como la fuente al pie de un reporte |
+| Pregunta algo que tus documentos no dicen | Responde que no lo encuentra, en vez de inventar algo creíble |
+| Comparás: las mismas preguntas, sin tus documentos y con ellos | Sabés cuántas respondió bien en cada caso |
 
 **Qué subís.** Tu asistente andando, al menos 5 documentos de tu tema, tus preguntas de prueba y tu página de evidencia de la v0.2.
 
@@ -99,12 +104,14 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 
 **En BI sería:** un filtro que se mantiene durante la sesión (la memoria) y un asistente que decide qué fuente consultar: tus documentos, internet o la calculadora.
 
-| Si hacés esto | Tiene que pasar |
+*Ejemplos con una cooperativa: en tu tema cambian las palabras, no lo que tiene que pasar.*
+
+| Cuando | Tiene que pasar |
 |---|---|
-| Le decís «Mi tema es la cooperativa Las Acacias» y después preguntás «¿De qué es mi tema?» | Responde «la cooperativa Las Acacias»; en otra conversación, no lo sabe |
-| Le preguntás «¿Cuánto es el 18 % de 3.400.000?» | Usa la calculadora: 612.000 |
-| Le preguntás algo de actualidad que no está en tus documentos | Busca en internet y dice de dónde lo sacó |
-| Internet no responde | Lo dice, en vez de inventar |
+| Un socio pregunta «¿Cuándo vence la cuota?» y después «¿Y si pago tarde?» | Entiende que la segunda es sobre la cuota; en otra conversación, con otro socio, empieza de cero |
+| Le preguntás «El presupuesto es de 3.400.000 y sube 18 %: ¿cuánto queda?» | Hace la cuenta con la calculadora, no de memoria: 4.012.000 |
+| Le preguntás algo reciente que no está en tus documentos (una noticia de esta semana) | Busca en internet y dice de dónde lo sacó |
+| La búsqueda en internet se cae | Te dice que no pudo buscar, en vez de inventar la respuesta |
 
 **Qué subís.** Tu asistente andando, tus preguntas de prueba con la herramienta que esperás en cada una, y tus páginas de evidencia de la v0.3 y la v0.4.
 
@@ -124,13 +131,15 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 
 **En BI sería:** un flujo con aprobación antes de publicar y con el registro de cada corrida (la traza) y su costo; el README son las instrucciones para que otra persona lo instale.
 
-| Si hacés esto | Tiene que pasar |
+*Ejemplos con una cooperativa: en tu tema cambian las palabras, no lo que tiene que pasar.*
+
+| Cuando | Tiene que pasar |
 |---|---|
-| Le hacés una pregunta que necesita tus documentos y una cuenta | El equipo la resuelve y te pide que apruebes |
-| Rechazás la respuesta | No se envía |
-| Mirás el registro de una pregunta | Qué herramientas usó, cuántos tokens y cuánto costó |
-| Le escribís un email en la pregunta | El email no llega al modelo ni queda en el registro |
-| Otra persona clona tu repo y sigue tu README | El asistente corre |
+| Un socio pregunta «Según el reglamento, ¿cuánto pago de recargo si debo 3 cuotas?» | El equipo busca en el reglamento, hace la cuenta y, antes de responder, te pide que apruebes |
+| La respuesta tiene un error y la rechazás | No le llega al socio |
+| Querés saber qué pasó con una pregunta de ayer | En el registro ves qué consultó, cuántos tokens usó y cuánto costó |
+| Un socio escribe su email en la pregunta | El email no llega al modelo ni queda en el registro |
+| Un compañero instala tu asistente siguiendo tu README | Le anda sin tener que preguntarte nada |
 
 **Qué subís.** Tu asistente terminado, con su README, una prueba automática de tu protección, el documento de arquitectura y el registro de evaluación (las plantillas están en `docs/`) y, en la tarea, el PDF de tus slides.
 
