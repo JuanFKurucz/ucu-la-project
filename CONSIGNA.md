@@ -20,16 +20,16 @@ Construís, solo, un **asistente que responde sobre un tema que elegís**, con t
 3. Clonalo con GitHub Desktop y seguí «Antes de la clase 1» del aula virtual.
 4. Pegá el enlace en la tarea «Enlace a tu repositorio».
 
-Cada versión la escribís vos con la práctica del módulo (https://juanfkurucz.com/ucu-la/), que te da el código paso a paso.
+Esta consigna dice **qué** tiene que hacer tu asistente. **Cómo** hacerlo lo practicás en clase: cada versión sale de las prácticas de su módulo (https://juanfkurucz.com/ucu-la/), y lo adaptás a tu tema con tus decisiones.
 
 ### Cómo se entrega
 
 En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve comentarios. Antes, revisá:
 
-- Corre con `uv run python …`, parado en la carpeta del proyecto.
-- `.env` **no** aparece en los cambios de GitHub Desktop.
-- Hiciste *commit* (el mensaje empieza con la versión: «v0.1: …») y *push*.
-- Está la página de evidencia, en `evidencia/` (`v0.1.md`, `v0.2.md`…), con tus números.
+- Tu asistente anda: lo probás de cero con los casos de la entrega.
+- Tu clave **no** está en el repo.
+- Subiste tus cambios a GitHub (*commit* y *push*).
+- Está tu página de evidencia de la versión, con tus números.
 - Pegaste el enlace al repo en la tarea del aula virtual.
 
 ### Cómo se corrige cada entrega de avance
@@ -46,24 +46,24 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 
 **Tu primer programa con un LLM.** Versión `v0.1` · hasta el mar 3/11, 23:59 (antes de la clase 3) · 10 puntos · sale de: prácticas M2 y M3 (clase 2).
 
-**Lo que tiene que funcionar.** Una llamada a un LLM andando: le preguntás sobre tu tema, responde, y queda guardado qué respondió, cuánto tardó y cuántos tokens usó. Si algo falla, no se cae.
+**Lo que tiene que funcionar.** Le hacés una pregunta sobre tu tema y responde. Queda anotado qué respondió, cuánto tardó y cuántos tokens usó (lo que se cobra). Si el servicio del modelo falla, avisa y no se cae.
 
 **En BI sería:** una consulta programada que deja su registro de ejecución: qué pidió, qué devolvió, cuánto tardó y cuánto costó (los tokens son lo que se cobra).
 
-| Si hacés esto | Tenés que ver |
+| Si hacés esto | Tiene que pasar |
 |---|---|
-| Corrés `uv run python v01_api.py` con «¿Qué es una alucinación en un LLM?» | La respuesta aparece de a poco, en dos frases, con sus tokens y su tiempo |
-| Lo corrés con tus 5 preguntas | `logs/v01.jsonl` tiene 5 renglones nuevos, uno por pregunta |
-| Ponés en `config.toml` un modelo que no existe | Avisa el error en castellano, reintenta, lo anota y sigue |
-| Corrés `uv run python m2_extraccion.py` | Saca entidad y cifra de 10 textos y dice cuántos acertó |
+| Le preguntás «¿Qué es una alucinación en un LLM?» | Responde en dos frases, la respuesta aparece de a poco y ves cuánto tardó y cuántos tokens usó |
+| Le hacés tus 5 preguntas | Queda un registro con las 5: pregunta, respuesta, tiempo y tokens |
+| El modelo no responde (por ejemplo, le pediste uno que no existe) | Avisa el error en castellano, reintenta y sigue |
+| Le das 10 textos de tu tema | Saca de cada uno el dato que pediste (quién y cuánto) y te dice cuántos acertó |
 
-**Qué subís.** `v01_api.py`, `m2_extraccion.py`, `tabla.py`, tus 5 textos en `datos/` y `evidencia/v0.1.md`.
+**Qué subís.** Tu asistente andando en tu repo, tus textos y preguntas de prueba, y tu página de evidencia de la v0.1.
 
 **En tu página de evidencia contás:**
 
-- ¿Qué cambiaste en el molde de M2 y cuántos aciertos hubo antes y después?
-- ¿Qué configuración elegís para tu v0.1 (modelo o mensaje del sistema) y por qué?
-- ¿Qué pasó con el modelo que no existe? ¿Sirvió reintentar?
+- ¿Qué cambiaste en el pedido para que extraiga bien, y cuántos aciertos hubo antes y después?
+- ¿Qué configuración elegís (modelo o instrucciones) y por qué?
+- ¿Qué pasó cuando el modelo no respondió? ¿Sirvió reintentar?
 - ¿Cuánto costaría por mes, a 1000 preguntas por día? (con el precio y su fecha)
 - Cómo usaste IA: qué aceptaste, corregiste o rechazaste.
 
@@ -75,19 +75,19 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 
 **En BI sería:** un reporte con la fuente al pie de cada número; si el dato no está en tus tablas, lo dice en vez de rellenar.
 
-| Si hacés esto | Tenés que ver |
+| Si hacés esto | Tiene que pasar |
 |---|---|
-| Preguntás algo que está en tus documentos | Responde con tus documentos y nombra el archivo de cada dato |
-| Preguntás algo que no está en tus documentos | Dice que no lo encuentra, sin inventar |
-| Corrés tus preguntas de prueba sin y con documentos | Ves cuántas respondió bien en cada caso |
+| Le preguntás algo que está en tus documentos | Responde con tus documentos y nombra el documento de cada dato |
+| Le preguntás algo que no está en tus documentos | Dice que no lo encuentra, sin inventar |
+| Le hacés tus preguntas de prueba, sin y con documentos | Sabés cuántas respondió bien en cada caso |
 
-**Qué subís.** Al menos 5 documentos de tu tema en `corpus/`, tus preguntas de prueba en `datos/`, `v02_rag.py`, `medir.py` y `evidencia/v0.2.md`.
+**Qué subís.** Tu asistente andando en tu repo, al menos 5 documentos de tu tema, tus preguntas de prueba y tu página de evidencia de la v0.2.
 
 **En tu página de evidencia contás:**
 
 - Con las mismas preguntas, ¿cuántas bien sin documentos y cuántas con documentos?
-- Un error: ¿no encontró el fragmento, o lo encontró y respondió mal?
-- ¿Qué tamaño de fragmento (los pedazos en que partís tus documentos para buscar) elegiste y por qué?
+- Un error: ¿no encontró lo que buscaba, o lo encontró y respondió mal?
+- ¿En qué tamaño partiste tus documentos para buscar, y por qué?
 - ¿Qué hiciste con los comentarios de la entrega 1?
 - Cómo usaste IA: qué aceptaste, corregiste o rechazaste.
 
@@ -99,14 +99,14 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 
 **En BI sería:** un filtro que se mantiene durante la sesión (la memoria) y un asistente que decide qué fuente consultar: tus documentos, internet o la calculadora.
 
-| Si hacés esto | Tenés que ver |
+| Si hacés esto | Tiene que pasar |
 |---|---|
-| Decís «Mi tema es la cooperativa Las Acacias» y después preguntás «¿De qué es mi tema?» | Responde «la cooperativa Las Acacias»; en otra conversación, no lo sabe |
-| Preguntás «¿Cuánto es el 18 % de 3.400.000?» | Usa la calculadora: 612.000 |
-| Preguntás algo de actualidad que no está en tus documentos | Busca en internet y dice de dónde lo sacó |
+| Le decís «Mi tema es la cooperativa Las Acacias» y después preguntás «¿De qué es mi tema?» | Responde «la cooperativa Las Acacias»; en otra conversación, no lo sabe |
+| Le preguntás «¿Cuánto es el 18 % de 3.400.000?» | Usa la calculadora: 612.000 |
+| Le preguntás algo de actualidad que no está en tus documentos | Busca en internet y dice de dónde lo sacó |
 | Internet no responde | Lo dice, en vez de inventar |
 
-**Qué subís.** `v03_memoria.py`, `v04_agente.py`, `medir.py`, tus preguntas con la herramienta esperada en `datos/`, `evidencia/v0.3.md` y `evidencia/v0.4.md`.
+**Qué subís.** Tu asistente andando en tu repo, tus preguntas de prueba con la herramienta que esperás en cada una, y tus páginas de evidencia de la v0.3 y la v0.4.
 
 **En tu página de evidencia contás:**
 
@@ -120,18 +120,19 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 
 **Tu asistente terminado.** Versión `v0.5` y `v1.0` · hasta el dom 22/11, 23:59 (antes de la clase 8, lun 23/11) · 60 puntos, con la rúbrica del programa · sale de: prácticas M7 y M8 (clases 6 y 7).
 
-**Lo que tiene que funcionar.** Un equipo de agentes (un supervisor reparte: uno investiga, otro calcula, otro redacta) responde sobre tu tema, y una persona aprueba antes de cada respuesta. Sabés cuánto cuesta y otra persona lo puede correr con tu README.
+**Lo que tiene que funcionar.** Un equipo de agentes (un supervisor reparte: uno investiga, otro calcula, otro redacta) responde sobre tu tema, y una persona aprueba antes de cada respuesta. Sabés cuánto cuesta, un dato personal no se escapa y otra persona lo puede instalar con tu README.
 
 **En BI sería:** un flujo con aprobación antes de publicar y con el registro de cada corrida (la traza) y su costo; el README son las instrucciones para que otra persona lo instale.
 
-| Si hacés esto | Tenés que ver |
+| Si hacés esto | Tiene que pasar |
 |---|---|
-| Hacés una pregunta que necesita tus documentos y una cuenta | El equipo la resuelve y te pide que apruebes |
+| Le hacés una pregunta que necesita tus documentos y una cuenta | El equipo la resuelve y te pide que apruebes |
 | Rechazás la respuesta | No se envía |
-| Mirás la traza de una pregunta | Qué herramientas usó, cuántos tokens y cuánto costó |
+| Mirás el registro de una pregunta | Qué herramientas usó, cuántos tokens y cuánto costó |
+| Le escribís un email en la pregunta | El email no llega al modelo ni queda en el registro |
 | Otra persona clona tu repo y sigue tu README | El asistente corre |
 
-**Qué subís.** Tu repo con `v1.0`, `tests/test_produccion.py` y su README, `docs/arquitectura.md`, `docs/registro-evaluacion.md` y, en la tarea, el PDF de tus slides.
+**Qué subís.** Tu asistente terminado en tu repo, con su README, una prueba automática de tu protección, el documento de arquitectura y el registro de evaluación (las plantillas están en `docs/`) y, en la tarea, el PDF de tus slides.
 
 **En tu página de evidencia contás:**
 
