@@ -8,9 +8,9 @@ Construís, solo, un **asistente que responde sobre un tema que elegís**, con t
 
 | Entrega | Fecha | Qué tiene que funcionar |
 |---|---|---|
-| 1 | mar 3/11, 23:59 | Tu primer programa con un LLM |
-| 2 | mar 10/11, 23:59 | Tu asistente busca en tus documentos |
-| 3 | mar 17/11, 23:59 | Recuerda la conversación y elige herramientas |
+| 1 | mié 4/11, 23:59 | Tu primer programa con un LLM |
+| 2 | mié 11/11, 23:59 | Tu asistente busca en tus documentos |
+| 3 | mié 18/11, 23:59 | Recuerda la conversación y elige herramientas |
 | Final | dom 22/11, 23:59 | Tu asistente terminado |
 
 ### Cómo arrancar
@@ -44,7 +44,7 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 
 ## Entrega de avance 1 · Tu primer programa con un LLM
 
-**Tu primer programa con un LLM.** Versión `v0.1` · hasta el mar 3/11, 23:59 (antes de la clase 3) · 10 puntos · sale de: prácticas M2 y M3 (clase 2).
+**Tu primer programa con un LLM.** Versión `v0.1` · hasta el mié 4/11, 23:59 (el día de la clase 3) · 10 puntos · sale de: prácticas M2 y M3 (clase 2).
 
 **Lo que tiene que funcionar.** Un solo pedido al modelo: unas instrucciones sobre tu tema (si querés, con algunos datos pegados) y la pregunta. Responde, y queda anotado qué respondió, cuánto tardó y cuántos tokens usó (lo que se cobra). Si el servicio del modelo falla, avisa y no se cae. Todavía no busca en documentos ni usa herramientas: eso viene en las entregas que siguen.
 
@@ -72,7 +72,7 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 
 ## Entrega de avance 2 · Tu asistente busca en tus documentos
 
-**Tu asistente busca en tus documentos.** Versión `v0.2` · hasta el mar 10/11, 23:59 (antes de la clase 5) · 10 puntos · sale de: práctica M4 (clases 3 y 4).
+**Tu asistente busca en tus documentos.** Versión `v0.2` · hasta el mié 11/11, 23:59 (el día de la clase 5) · 10 puntos · sale de: práctica M4 (clases 3 y 4).
 
 **Lo que tiene que funcionar.** Tu asistente responde con tus documentos y dice de cuál sacó cada dato. Si la respuesta no está en ellos, lo dice en vez de inventar.
 
@@ -98,7 +98,7 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 
 ## Entrega de avance 3 · Recuerda la conversación y elige herramientas
 
-**Recuerda la conversación y elige herramientas.** Versión `v0.3` y `v0.4` · hasta el mar 17/11, 23:59 (antes de la clase 7) · 10 puntos · sale de: prácticas M5 y M6 (clases 4 a 6).
+**Recuerda la conversación y elige herramientas.** Versión `v0.3` y `v0.4` · hasta el mié 18/11, 23:59 (el día de la clase 7) · 10 puntos · sale de: prácticas M5 y M6 (clases 4 a 6).
 
 **Lo que tiene que funcionar.** Tu asistente recuerda lo que hablaste en la misma conversación y elige solo entre tus documentos, internet y una calculadora. Si una herramienta falla, lo dice.
 

@@ -73,9 +73,9 @@ una, con ejemplos: la consigna del proyecto y la tarea de cada entrega, en el au
 
 | Entrega | Hasta | Versión | Lo que tiene que funcionar |
 |---|---|---|---|
-| 1 | mar 3/11, 23:59 | `v0.1` | Le preguntás al modelo sobre tu tema y responde; queda guardado qué, cuánto tardó y cuántos tokens usó |
-| 2 | mar 10/11, 23:59 | `v0.2` | Responde con tus documentos y dice de cuál sacó cada dato; si no está, lo dice |
-| 3 | mar 17/11, 23:59 | `v0.3`, `v0.4` | Recuerda la conversación y elige entre tus documentos, internet y una calculadora |
+| 1 | mié 4/11, 23:59 | `v0.1` | Le preguntás al modelo sobre tu tema y responde; queda guardado qué, cuánto tardó y cuántos tokens usó |
+| 2 | mié 11/11, 23:59 | `v0.2` | Responde con tus documentos y dice de cuál sacó cada dato; si no está, lo dice |
+| 3 | mié 18/11, 23:59 | `v0.3`, `v0.4` | Recuerda la conversación y elige entre tus documentos, internet y una calculadora |
 | Final | dom 22/11, 23:59 | `v0.5`, `v1.0` | Un equipo de agentes con una persona que aprueba; sabés cuánto cuesta y otra persona lo corre con tu README |
 
 ## Reglas
