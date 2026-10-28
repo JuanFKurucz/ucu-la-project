@@ -5,6 +5,8 @@ Tus entradas y tus preguntas de prueba, una por línea en JSON (`.jsonl`).
 - `m2_textos.jsonl`: los 10 textos de la práctica M2, cada uno con su `entidad` y su `cifra` esperadas.
 - `m4_suite.jsonl`: 13 preguntas de prueba sobre los documentos de ejemplo de `corpus/` (práctica M4). En `fuentes`, el
   documento que tiene la respuesta (sin extensión); vacío si la respuesta no está. Tu suite, `mi_suite.jsonl`, va igual.
+- `m6_seleccion.jsonl`: 12 preguntas para medir si el agente elige bien (práctica M6). En `herramientas`, las que
+  esperás que pida; `[]` si no hace falta ninguna (un saludo). Tu suite, `mi_seleccion.jsonl`, va igual.
 
 Por ejemplo:
 

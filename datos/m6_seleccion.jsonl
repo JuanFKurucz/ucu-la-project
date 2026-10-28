@@ -1,0 +1,12 @@
+{"id": 1, "tipo": "corpus", "pregunta": "¿Qué hace interrupt() en LangGraph?", "esperado": "Pausa el grafo y espera una entrada externa.", "herramientas": ["buscar_documentos"]}
+{"id": 2, "tipo": "corpus", "pregunta": "¿Qué diferencia hay entre un checkpointer y un store?", "esperado": "Checkpointer: estado por thread. Store: datos entre threads.", "herramientas": ["buscar_documentos"]}
+{"id": 3, "tipo": "corpus", "pregunta": "¿Qué clase se usa para borrar mensajes del estado?", "esperado": "RemoveMessage.", "herramientas": ["buscar_documentos"]}
+{"id": 4, "tipo": "corpus", "pregunta": "¿Cómo se compila un subgrafo sin checkpointing?", "esperado": "checkpointer=False.", "herramientas": ["buscar_documentos"]}
+{"id": 5, "tipo": "web", "pregunta": "¿Cuál es la última versión de LangGraph publicada en PyPI?", "esperado": "La que diga PyPI hoy, si aparece en el resultado de buscar_web; si no aparece, decir que no la encontró (no inventarla).", "herramientas": ["buscar_web"]}
+{"id": 6, "tipo": "web", "pregunta": "¿Cuál es la última versión de chromadb publicada en PyPI?", "esperado": "La que diga PyPI hoy, si aparece en el resultado de buscar_web; si no aparece, decir que no la encontró (no inventarla).", "herramientas": ["buscar_web"]}
+{"id": 7, "tipo": "web", "pregunta": "¿Qué empresa desarrolla LangGraph?", "esperado": "LangChain.", "herramientas": ["buscar_web"]}
+{"id": 8, "tipo": "calculo", "pregunta": "Si una consulta cuesta 0.0042 USD, ¿cuánto cuestan 1500 consultas?", "esperado": "6.3 USD.", "herramientas": ["calcular"]}
+{"id": 9, "tipo": "calculo", "pregunta": "Pasamos de 189 a 412 chunks. ¿En qué porcentaje creció el índice?", "esperado": "≈ 118 %.", "herramientas": ["calcular"]}
+{"id": 10, "tipo": "ninguna", "pregunta": "Hola, ¿cómo estás?", "esperado": "Saludo, sin herramientas.", "herramientas": []}
+{"id": 11, "tipo": "ninguna", "pregunta": "Gracias, eso es todo.", "esperado": "Cierre, sin herramientas.", "herramientas": []}
+{"id": 12, "tipo": "combinada", "pregunta": "Según la documentación, ¿cuántas filas tiene la tabla que compara checkpointer y store? Multiplicá ese número por 3.", "esperado": "5 filas con contenido (la sexta, «Full guide», son enlaces) → 15; si cuenta las 6, 18.", "herramientas": ["buscar_documentos", "calcular"]}

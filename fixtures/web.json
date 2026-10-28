@@ -1,0 +1,4 @@
+{
+  "nota": "Resultados grabados para clases sin red o cuando DuckDuckGo limita por IP. NO prueban que tu integración real funcione: declaralo en la evidencia.",
+  "resultado": "- langgraph · PyPI: LangGraph is a low-level orchestration framework for building stateful agents (https://pypi.org/project/langgraph/)\n- chromadb · PyPI: Chroma, the AI-native open-source embedding database (https://pypi.org/project/chromadb/)\n- LangGraph es desarrollado por LangChain Inc. (https://github.com/langchain-ai/langgraph)"
+}

@@ -33,8 +33,10 @@ mi-asistente/
 ├── config.toml        qué modelo usar, temperatura y tope de salida
 ├── llm.py             cargar_modelo(): el modelo de config.toml, con errores en castellano
 ├── check_setup.py     ¿funciona tu entorno?
+├── herramientas.py    buscar_web, calcular y Medidor: listos para tu agente (desde M6)
 ├── corpus/            tus documentos (.md o .txt)
 ├── datos/             tus entradas y tus preguntas de prueba (.jsonl)
+├── fixtures/          una respuesta web grabada, para medir sin internet
 ├── evidencia/         una página por versión: qué cambiaste, con qué resultado y por qué
 ├── docs/              arquitectura y registro de evaluación (entrega final)
 ├── tests/             tus pruebas: uv run pytest
