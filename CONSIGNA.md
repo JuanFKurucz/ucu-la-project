@@ -46,7 +46,7 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 
 **Tu primer programa con un LLM.** Versión `v0.1` · hasta el mar 3/11, 23:59 (antes de la clase 3) · 10 puntos · sale de: prácticas M2 y M3 (clase 2).
 
-**Lo que tiene que funcionar.** Le hacés una pregunta sobre tu tema y responde. Queda anotado qué respondió, cuánto tardó y cuántos tokens usó (lo que se cobra). Si el servicio del modelo falla, avisa y no se cae.
+**Lo que tiene que funcionar.** Un solo pedido al modelo: unas instrucciones sobre tu tema (si querés, con algunos datos pegados) y la pregunta. Responde, y queda anotado qué respondió, cuánto tardó y cuántos tokens usó (lo que se cobra). Si el servicio del modelo falla, avisa y no se cae. Todavía no busca en documentos ni usa herramientas: eso viene en las entregas que siguen.
 
 **En BI sería:** una consulta programada que deja su registro de ejecución: qué pidió, qué devolvió, cuánto tardó y cuánto costó (los tokens son lo que se cobra).
 
@@ -54,7 +54,7 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 
 | Cuando | Tiene que pasar |
 |---|---|
-| Un socio de la cooperativa le pregunta «¿Cuándo es la próxima asamblea?» | Responde en dos frases, que van apareciendo mientras las escribe, y vos ves cuánto tardó y cuánto costó |
+| Pegaste en las instrucciones los datos básicos de la cooperativa (horario, fecha de la asamblea) y un socio pregunta «¿Cuándo es la próxima asamblea?» | Responde con lo que le diste, en dos frases que van apareciendo mientras las escribe, y vos ves cuánto tardó y cuánto costó |
 | A fin de mes querés saber qué le preguntaron y cuánto gastó | Tenés el registro de cada consulta: qué le preguntaron, qué respondió, cuánto tardó y cuánto costó |
 | El servicio del modelo falla (se cayó, o se terminó la cuota del día) | Te avisa en castellano qué pasó, lo intenta de nuevo y sigue con la próxima pregunta |
 | Le pasás una noticia: «La cooperativa Las Acacias informó que cerró 2025 con 1.250 socios activos» | Te devuelve el dato listo para una tabla: organización «Cooperativa Las Acacias», cifra 1250 |
