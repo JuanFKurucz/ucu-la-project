@@ -4,6 +4,8 @@ El punto de partida de tu proyecto: un asistente que responde preguntas sobre un
 documentos. Lo escribís vos, en seis versiones. Acá solo están las carpetas, las librerías (con `uv`) y un
 chequeo del entorno.
 
+**Qué se espera en cada entrega** (fechas, qué tiene que funcionar, qué subís y cómo se corrige): [CONSIGNA.md](CONSIGNA.md).
+
 ## Empezar
 
 1. Arriba, **Use this template → Create a new repository**: dueño vos, visibilidad **Private**.
@@ -30,6 +32,7 @@ Tiene que terminar en `OK: entorno listo.`
 
 ```
 mi-asistente/
+├── CONSIGNA.md        qué se espera en cada entrega
 ├── config.toml        qué modelo usar, temperatura y tope de salida
 ├── llm.py             cargar_modelo(): el modelo de config.toml, con errores en castellano
 ├── check_setup.py     ¿funciona tu entorno?
