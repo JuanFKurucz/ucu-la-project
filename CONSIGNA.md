@@ -57,7 +57,7 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 | El modelo no responde (por ejemplo, le pediste uno que no existe) | Avisa el error en castellano, reintenta y sigue |
 | Le das 10 textos de tu tema | Saca de cada uno el dato que pediste (quién y cuánto) y te dice cuántos acertó |
 
-**Qué subís.** Tu asistente andando en tu repo, tus textos y preguntas de prueba, y tu página de evidencia de la v0.1.
+**Qué subís.** Tu asistente andando, tus textos y preguntas de prueba, y tu página de evidencia de la v0.1.
 
 **En tu página de evidencia contás:**
 
@@ -81,7 +81,7 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 | Le preguntás algo que no está en tus documentos | Dice que no lo encuentra, sin inventar |
 | Le hacés tus preguntas de prueba, sin y con documentos | Sabés cuántas respondió bien en cada caso |
 
-**Qué subís.** Tu asistente andando en tu repo, al menos 5 documentos de tu tema, tus preguntas de prueba y tu página de evidencia de la v0.2.
+**Qué subís.** Tu asistente andando, al menos 5 documentos de tu tema, tus preguntas de prueba y tu página de evidencia de la v0.2.
 
 **En tu página de evidencia contás:**
 
@@ -106,7 +106,7 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 | Le preguntás algo de actualidad que no está en tus documentos | Busca en internet y dice de dónde lo sacó |
 | Internet no responde | Lo dice, en vez de inventar |
 
-**Qué subís.** Tu asistente andando en tu repo, tus preguntas de prueba con la herramienta que esperás en cada una, y tus páginas de evidencia de la v0.3 y la v0.4.
+**Qué subís.** Tu asistente andando, tus preguntas de prueba con la herramienta que esperás en cada una, y tus páginas de evidencia de la v0.3 y la v0.4.
 
 **En tu página de evidencia contás:**
 
@@ -132,7 +132,7 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 | Le escribís un email en la pregunta | El email no llega al modelo ni queda en el registro |
 | Otra persona clona tu repo y sigue tu README | El asistente corre |
 
-**Qué subís.** Tu asistente terminado en tu repo, con su README, una prueba automática de tu protección, el documento de arquitectura y el registro de evaluación (las plantillas están en `docs/`) y, en la tarea, el PDF de tus slides.
+**Qué subís.** Tu asistente terminado, con su README, una prueba automática de tu protección, el documento de arquitectura y el registro de evaluación (las plantillas están en `docs/`) y, en la tarea, el PDF de tus slides.
 
 **En tu página de evidencia contás:**
 
