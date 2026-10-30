@@ -91,8 +91,8 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 **En tu página de evidencia contás:**
 
 - Con las mismas preguntas, ¿cuántas bien sin documentos y cuántas con documentos?
-- Un error: ¿no encontró lo que buscaba, o lo encontró y respondió mal?
-- ¿En qué tamaño partiste tus documentos para buscar, y por qué?
+- Un error: ¿no encontró lo que buscaba (falla de recuperación), o lo encontró y respondió mal (de generación)?
+- ¿En qué tamaño partiste tus documentos (el tamaño de fragmento, `chunk_size`) y cuántos fragmentos traés (`k`), y por qué?
 - ¿Qué hiciste con los comentarios de la entrega 1?
 - Cómo usaste IA: qué aceptaste, corregiste o rechazaste.
 
