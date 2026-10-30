@@ -118,8 +118,8 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 **En tu página de evidencia contás:**
 
 - Con las mismas preguntas, ¿v0.3 responde igual o mejor que v0.2?
-- ¿Cómo comprobaste que dos conversaciones no se mezclan?
-- ¿Cuántas veces eligió bien la herramienta, antes y después de tu cambio?
+- ¿Cómo comprobaste que dos conversaciones (dos hilos, `thread_id`) no se mezclan?
+- ¿Cuántas veces eligió bien la herramienta (tu suite de selección), antes y después de tu cambio?
 - ¿Qué hiciste con los comentarios de la entrega 2?
 - Cómo usaste IA: qué aceptaste, corregiste o rechazaste.
 
@@ -146,8 +146,9 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 **En tu página de evidencia contás:**
 
 - ¿El equipo es mejor que el agente solo de v0.4? (aciertos, llamadas y tiempo, con las mismas preguntas)
-- ¿Cuánto cuesta por mes y qué protección pusiste, con su prueba?
-- ¿Lo liberarías? ¿Qué falta?
+- ¿Cuánto cuesta por mes y qué protección (guardrail) pusiste, con su prueba (test)?
+- ¿Lo liberarías (go / no-go)? ¿Qué falta?
+- ¿Qué hiciste con los comentarios de la entrega 3?
 - Cómo usaste IA: qué aceptaste, corregiste o rechazaste.
 
 ### Cómo se corrige la entrega final
