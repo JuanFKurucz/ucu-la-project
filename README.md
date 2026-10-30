@@ -69,7 +69,7 @@ que poder explicar.
 ## Las entregas
 
 En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve comentarios. Qué se espera en cada
-una, con ejemplos: la consigna del proyecto y la tarea de cada entrega, en el aula virtual.
+una, con ejemplos: [CONSIGNA.md](CONSIGNA.md), en este mismo repo. La tarea de cada entrega está en el aula virtual.
 
 | Entrega | Hasta | Versión | Lo que tiene que funcionar |
 |---|---|---|---|
