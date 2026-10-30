@@ -16,7 +16,7 @@ herramientas y Chroma, un renglón por flecha, como `investigador --> buscar_web
 y probalo en mermaid.live. Para que se vea en este archivo, pegá el texto entre
 una línea `` ```mermaid `` y una línea `` ``` ``: GitHub lo dibuja solo. Si en GitHub ves un error en vez del dibujo,
 borrá el bloque de configuración (de la primera línea `---` a la segunda): solo elige el estilo de las curvas.
-Si tu versión final es el agente solo (v0.4: tu `v10_produccion.py` lo envuelve), dibujá su ciclo en otro
+Si tu versión final es el agente solo (v0.4: tu v1.0 lo envuelve), dibujá su ciclo en otro
 bloque (la primera línea, `graph TD;`, dice qué tipo de dibujo es):
 
 ```mermaid
@@ -35,7 +35,7 @@ En «Decisiones», decí cuál es tu versión final: el equipo (v0.5) o el agent
 |---|---|---|---|
 | *Ejemplo: tamaño de fragmento* | *1000/150 y 400/50 (fragmento/overlap)* | *400/50* | *hit 10/11 → 11/11 con la misma suite* |
 | Tamaño de fragmento (chunking) | | | |
-| *k* (fragmentos por búsqueda) | *el de partida (4) y el que probaste* | | *el hit con cada `k`, o los tokens por pregunta* |
+| *k* (fragmentos por búsqueda) | *el de partida (4) y el que probaste; el agente usa el mismo y recorta cada fragmento a 600 caracteres* | | *el hit con cada `k`, o los tokens por pregunta* |
 | Modelo / proveedor | *los dos modelos o sistemas que comparaste en M3* | | *tu tabla de M3: tokens, latencia y respuestas buenas* |
 | Herramientas y descripciones | *la descripción o el `SISTEMA` de base y tu cambio (M6)* | | *eligió bien, corrida a contra corrida b* |
 | Patrón multiagente | *agente solo (v0.4) o equipo con supervisor (v0.5)* | | *tu tabla de M7: eligió bien, llamadas y latencia de cada uno* |
