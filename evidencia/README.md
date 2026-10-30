@@ -7,6 +7,7 @@ Una página por versión (`m1.md`, `v0.1.md`, `v0.2.md`…). Cada una dice:
 - **Resultado:** la tabla con las mismas preguntas, contra la versión anterior.
 - **Decisión y límite:** qué te quedás y qué todavía no detecta.
 - **Uso de IA:** qué te dio, qué aceptaste, corregiste o rechazaste.
+- **Comentarios de la entrega anterior** (desde la v0.2): cada comentario del docente y qué hiciste (lo cambiaste, o por qué no).
 
 Las preguntas que cada entrega pide responder están en la [consigna](../CONSIGNA.md).
 
