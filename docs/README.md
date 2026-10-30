@@ -1,4 +1,5 @@
 # docs
 
-Para la entrega final, dos plantillas para completar: `arquitectura.md` (cómo está armado tu asistente) y
-`registro-evaluacion.md` (tus mediciones y qué decidiste con ellas).
+Para la entrega final, tres plantillas: `arquitectura.md` (cómo está armado tu asistente),
+`registro-evaluacion.md` (tus mediciones y qué decidiste con ellas) y `presentacion.md` (cómo armar las slides de
+la defensa: las slides no van en el repo, el PDF va en la tarea).

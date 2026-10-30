@@ -78,6 +78,18 @@ una, con ejemplos: [CONSIGNA.md](CONSIGNA.md), en este mismo repo. La tarea de c
 | 3 | mié 18/11, 23:59 | `v0.3`, `v0.4` | Recuerda la conversación y elige entre tus documentos, internet y una calculadora |
 | Final | dom 22/11, 23:59 | `v0.5`, `v1.0` | Un equipo de agentes con una persona que aprueba; sabés cuánto cuesta y otra persona lo corre con tu README |
 
+## Antes de entregar (clase 8)
+
+1. **Reemplazá este README** por el de **tu** asistente: qué pregunta responde, con qué documentos, cómo correrlo
+   (los comandos, en orden) y qué ver. Por ejemplo, con tus nombres:
+   - `uv sync`
+   - copiar `.env.example` como `.env` y pegar la clave
+   - `uv run python check_setup.py`
+   - `uv run python v10_produccion.py`
+   - `uv run python medir.py` (la corrida final va 3 veces: `pass^3`, en `docs/registro-evaluacion.md`)
+2. **Probalo como si fueras otra persona:** cloná tu repo en una carpeta nueva, `uv sync`, copiá `.env.example` como
+   `.env` con tu clave (el clon no la trae) y corré `uv run pytest`. Tiene que decir `… passed` y ningún `failed`.
+
 ## Reglas
 
 - La clave vive en `.env`. Nunca en el código, en un chat ni en una captura.
