@@ -52,8 +52,8 @@ abajo). Copiá los textos en la tabla: `logs/` no se sube al repositorio, así q
 
 Al menos 2, cada uno con su causa probable:
 
-- **búsqueda**: el fragmento con la respuesta no llegó (M4);
-- **redacción**: llegó y el modelo lo ignoró o lo leyó mal (M4);
+- **búsqueda** (falla de recuperación): el fragmento con la respuesta no llegó (M4);
+- **redacción** (falla de generación): llegó y el modelo lo ignoró o lo leyó mal (M4);
 - **elección de herramienta**: pidió otra herramienta o ninguna (M6);
 - **coordinación**: en el equipo, el supervisor repartió mal o una nota no llegó al redactor (M7).
 
