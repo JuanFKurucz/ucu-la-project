@@ -55,7 +55,7 @@ con otra con las mismas preguntas, igual que dos reportes contra la misma tabla.
 | Versión | Archivo | Entra | Sale |
 |---|---|---|---|
 | `v0.1` | `v01_api.py` | `pregunta: str` | `dict` con `respuesta`, `tokens_entrada`, `tokens_salida`, `latencia_s`; cada llamada, una línea en `logs/v01.jsonl` |
-| `v0.2` | `v02_rag.py` | `pregunta: str` | lo de `v0.1` más `fuentes`: los fragmentos de `corpus/` que usó |
+| `v0.2` | `v02_rag.py` | `pregunta: str` | lo de `v0.1` más `fuentes`: los nombres de los documentos de `corpus/` de donde vinieron los fragmentos que usó |
 | `v0.3` | `v03_memoria.py` | `pregunta: str`, `hilo: str` | lo de `v0.2`; recuerda lo dicho en el mismo `hilo` |
 | `v0.4` | `v04_agente.py` | `pregunta: str` | lo de `v0.2` más `herramientas`: cuáles usó (documentos, web, calculadora) |
 | `v0.5` | `v05_equipo.py` | `pregunta: str` | lo de `v0.4` más `aprobada: bool`: una persona aprueba antes de responder |
