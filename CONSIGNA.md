@@ -121,6 +121,7 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 - Con las mismas preguntas, ¿v0.3 responde igual o mejor que v0.2?
 - ¿Cómo comprobaste que dos conversaciones (dos hilos, `thread_id`) no se mezclan?
 - ¿Cuántas veces eligió bien la herramienta (tu suite de selección), antes y después de tu cambio?
+- Con la búsqueda en internet caída, ¿qué respondió: avisó o inventó?
 - ¿Qué hiciste con los comentarios de la entrega 2?
 - Cómo usaste IA: qué aceptaste, corregiste o rechazaste.
 
