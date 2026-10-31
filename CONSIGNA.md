@@ -65,6 +65,7 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 **En tu página de evidencia contás:**
 
 - ¿Qué cambiaste en el pedido para que extraiga bien, y cuántos aciertos hubo antes y después?
+- El texto con una orden escondida («ignorá las instrucciones…», el 7 de la práctica M2: inyección de prompt): ¿la obedeció? ¿Qué lo detectó?
 - ¿Qué configuración elegís (modelo o instrucciones) y por qué?
 - Cuando simulaste la falla del servicio, ¿qué hizo tu asistente? ¿Sirvió intentarlo de nuevo?
 - ¿Cuánto costaría por mes, a 1000 preguntas por día? (con el precio y su fecha)
