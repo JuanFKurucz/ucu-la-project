@@ -6,6 +6,8 @@ Octubre – Noviembre 2026 · Facultad de Ingeniería y Tecnologías · Maestrí
 
 Construís, solo, un **asistente que responde sobre un tema que elegís**, con tus documentos (al menos 5). Crece en 6 versiones y cada una funciona sola. Cada entrega tiene algo que tiene que **funcionar** y una página donde contás **qué probaste y qué decidiste**.
 
+**Para qué te sirve.** Terminás con un asistente que podés usar y mostrar en tu trabajo. Elegí un tema que conozcas, así sabés juzgar si responde bien: el diccionario de datos de tu equipo, los manuales de un sistema, un reglamento. Documentos públicos o con permiso, y sin datos personales.
+
 | Entrega | Fecha | Qué tiene que funcionar |
 |---|---|---|
 | 1 | mié 4/11, 23:59 | Tu primer programa con un LLM |
