@@ -86,7 +86,7 @@ una, con ejemplos: [CONSIGNA.md](CONSIGNA.md), en este mismo repo. La tarea de c
    - copiar `.env.example` como `.env` y pegar la clave
    - `uv run python check_setup.py`
    - `uv run python v10_produccion.py`
-   - `uv run python medir.py` (la corrida final va 3 veces: `pass^3`, en `docs/registro-evaluacion.md`)
+   - `uv run python medir.py` (la corrida final va 3 veces y cuenta lo que sale bien en las 3: `pass^3`, en `docs/registro-evaluacion.md`)
 2. **Probalo como si fueras otra persona:** cloná tu repo en una carpeta nueva, `uv sync`, copiá `.env.example` como
    `.env` con tu clave (el clon no la trae) y corré `uv run pytest`. Tiene que decir `… passed` y ningún `failed`.
 
