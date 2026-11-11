@@ -34,13 +34,15 @@ def buscar_web(consulta: str) -> str:
         return "ERROR: la búsqueda web no respondió. No inventes; decíselo al usuario."
     if modo == "grabada":
         return json.loads((RAIZ / "fixtures" / "web.json").read_text(encoding="utf-8")).get("resultado", "")
-    try:
-        from ddgs import DDGS
-        resultados = DDGS().text(consulta, max_results=3)
-        return "\n".join(f"- {r['title']}: {r['body'][:300]} ({r['href']})" for r in resultados) or "Sin resultados."
-    except Exception as error:  # sin red, o DuckDuckGo limita cuando busca toda la clase a la vez
-        print(f'(aviso: la búsqueda web falló: {type(error).__name__}. Si se repite, poné web = "grabada" en config.toml)')
-        return f"ERROR: la búsqueda web falló ({type(error).__name__}). No inventes; decíselo al usuario."
+    from ddgs import DDGS
+    for motor in ("yahoo", "bing", "auto"):  # a veces un motor no trae nada (DuckDuckGo suele fallar): probamos el siguiente
+        try:
+            resultados = DDGS(timeout=10).text(consulta, max_results=3, backend=motor)
+            return "\n".join(f"- {r['title']}: {r['body'][:300]} ({r['href']})" for r in resultados) or "Sin resultados."
+        except Exception as error:  # sin red, o limitado cuando busca toda la clase a la vez
+            falla = error
+    print(f'(aviso: la búsqueda web falló: {type(falla).__name__}. Si se repite, poné web = "grabada" en config.toml)')
+    return f"ERROR: la búsqueda web falló ({type(falla).__name__}). No inventes; decíselo al usuario."
 
 
 @tool
