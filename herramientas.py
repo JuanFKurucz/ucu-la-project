@@ -13,6 +13,7 @@ Corré uv run python herramientas.py para ver lo que el modelo sabe de cada una.
 """
 
 import json
+import logging
 import os
 import re
 import time
@@ -35,9 +36,10 @@ def buscar_web(consulta: str) -> str:
     if modo == "grabada":
         return json.loads((RAIZ / "fixtures" / "web.json").read_text(encoding="utf-8")).get("resultado", "")
     from ddgs import DDGS
-    for motor in ("yahoo", "bing", "auto"):  # a veces un motor no trae nada (DuckDuckGo suele fallar): probamos el siguiente
+    logging.getLogger("ddgs").setLevel(logging.ERROR)  # sus avisos ensucian la salida
+    for intento in range(2):  # ddgs prueba varios buscadores, en otro orden cada vez: si ninguno trae nada, otra vuelta
         try:
-            resultados = DDGS(timeout=10).text(consulta, max_results=3, backend=motor)
+            resultados = DDGS(timeout=10).text(consulta, max_results=3)
             return "\n".join(f"- {r['title']}: {r['body'][:300]} ({r['href']})" for r in resultados) or "Sin resultados."
         except Exception as error:  # sin red, o limitado cuando busca toda la clase a la vez
             falla = error
