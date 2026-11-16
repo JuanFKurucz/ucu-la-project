@@ -42,7 +42,7 @@ real, o la grabada si lo declarás).
 
 Salen de tu tabla de `medir.py` (o de `logs/medir.csv`): la pregunta, la respuesta, las `fuentes` o las `herramientas`, y
 lo que esperabas (si no coinciden, es un fallo de búsqueda o de elección). Elegí aciertos y fallos (los fallos van también
-abajo). Copiá los textos en la tabla: `logs/` no se sube al repositorio, así que quien lea tu registro no los ve.
+abajo). Copiá los textos en la tabla: quien lea tu registro no va a abrir `logs/` (que igual se sube, como respaldo).
 
 | Pregunta | Respuesta del sistema | Fuente o herramienta | ¿Correcta? | Análisis |
 |---|---|---|---|---|

@@ -43,7 +43,7 @@ mi-asistente/
 ├── evidencia/         una página por versión: qué cambiaste, con qué resultado y por qué
 ├── docs/              arquitectura y registro de evaluación (entrega final)
 ├── tests/             tus pruebas: uv run pytest
-└── logs/              lo que dejan tus corridas (no se sube)
+└── logs/              lo que dejan tus corridas (se sube: respalda tus números)
 ```
 
 ## Lo que escribís en cada versión

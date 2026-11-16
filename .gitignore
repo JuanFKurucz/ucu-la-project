@@ -4,7 +4,6 @@
 !.env.example
 .venv/
 .chroma/
-logs/
 __pycache__/
 __marimo__/
 # Mac: el Finder crea .DS_Store en cada carpeta que abrís; no es tuyo ni del proyecto

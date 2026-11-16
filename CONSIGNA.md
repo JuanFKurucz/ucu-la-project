@@ -62,7 +62,7 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 | Le pasás una noticia: «La cooperativa Las Acacias informó que cerró 2025 con 1.250 socios activos» | Te devuelve el dato listo para una tabla: organización «Cooperativa Las Acacias», cifra 1250 |
 | Le pasás 10 noticias que ya revisaste a mano | Sabés en cuántas sacó bien el dato |
 
-**Qué subís.** Tu asistente andando, tus textos y preguntas de prueba, y tu página de evidencia de la v0.1.
+**Qué subís.** Tu asistente andando, tus textos y preguntas de prueba, y tu página de evidencia de la v0.1. También tu carpeta logs/, con las corridas que respaldan tus números.
 
 **En tu página de evidencia contás:**
 
@@ -89,7 +89,7 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 | Pregunta algo que tus documentos no dicen | Responde que no lo encuentra, en vez de inventar algo creíble |
 | Comparás: las mismas preguntas, sin tus documentos y con ellos | Sabés cuántas respondió bien en cada caso |
 
-**Qué subís.** Tu asistente andando, al menos 5 documentos de tu tema, tus preguntas de prueba y tu página de evidencia de la v0.2.
+**Qué subís.** Tu asistente andando, al menos 5 documentos de tu tema, tus preguntas de prueba y tu página de evidencia de la v0.2. También tu carpeta logs/, con las corridas que respaldan tus números.
 
 **En tu página de evidencia contás:**
 
@@ -116,7 +116,7 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 | Le preguntás algo reciente que no está en tus documentos (una noticia de esta semana) | Busca en internet y dice de dónde lo sacó |
 | La búsqueda en internet se cae | Te dice que no pudo buscar, en vez de inventar la respuesta |
 
-**Qué subís.** Tu asistente andando, tus preguntas de prueba con la herramienta que esperás en cada una, y tus páginas de evidencia de la v0.3 y la v0.4.
+**Qué subís.** Tu asistente andando, tus preguntas de prueba con la herramienta que esperás en cada una, y tus páginas de evidencia de la v0.3 y la v0.4. También tu carpeta logs/, con las corridas que respaldan tus números.
 
 **En tu página de evidencia contás:**
 
@@ -145,7 +145,7 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 | Un socio escribe su email en la pregunta | El email no llega al modelo ni queda en el registro |
 | Un compañero instala tu asistente siguiendo tu README | Le anda sin tener que preguntarte nada |
 
-**Qué subís.** Tu asistente terminado, con su README, una prueba automática de tu protección, el documento de arquitectura y el registro de evaluación (las plantillas están en `docs/`) y, en la tarea, el PDF de tus slides.
+**Qué subís.** Tu asistente terminado, con su README, una prueba automática de tu protección, el documento de arquitectura y el registro de evaluación (las plantillas están en `docs/`) y, en la tarea, el PDF de tus slides. También tu carpeta logs/, con las corridas que respaldan tus números.
 
 **En tu página de evidencia contás:**
 
