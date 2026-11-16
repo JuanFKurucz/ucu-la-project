@@ -122,8 +122,9 @@ En cada fecha el docente mira tu repo **tal como está ese día** y te devuelve 
 
 - Con las mismas preguntas, ¿v0.3 responde igual o mejor que v0.2?
 - ¿Cómo comprobaste que dos conversaciones (dos hilos, `thread_id`) no se mezclan?
-- ¿Cuántas veces eligió bien la herramienta (tu suite de selección), antes y después de tu cambio?
+- ¿Cuántas veces eligió bien la herramienta (tu suite de selección), antes y después de tu cambio? ¿Y en cuántas de esas respondió bien?
 - Con la búsqueda en internet caída, ¿qué respondió: avisó o inventó?
+- Tu suite reservada: 6 a 8 preguntas nuevas, escritas antes de correr y que no usaste para ajustar. Corrida una sola vez al final, ¿cuántas bien, contra tu suite de siempre?
 - ¿Qué hiciste con los comentarios de la entrega 2?
 - Cómo usaste IA: qué aceptaste, corregiste o rechazaste.
 
