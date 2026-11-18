@@ -1,5 +1,7 @@
 # Presentación — [nombre del sistema] (20 minutos, unas 10 slides)
 
+Se presenta al grupo; el guion de toda la defensa (preguntas y sugerencias incluidas) está en la guía de la clase 8 y en el foro del curso.
+
 Una idea por slide. El título de cada slide es **una frase con tu conclusión**
 («Con fragmentos de 400 apareció el documento correcto»), no un tema
 («Fragmentos»). Abajo, la evidencia: una tabla, un gráfico o una captura.
@@ -10,7 +12,7 @@ Una idea por slide. El título de cada slide es **una frase con tu conclusión**
 | 2. Demo en vivo | 3 | 1 | Las 3 consultas que vas a correr y qué requisito muestra cada una: entre las tres, los 4 requisitos de la consigna (RAG, agente con herramientas, equipo con aprobación y tu práctica de producción). Una que sea un caso límite: sin respuesta en tus documentos (¿lo reconoce o inventa?) o con la web caída (¿avisa?). |
 | 3. Arquitectura y decisiones | 5 | 3 | El diagrama del grafo. Dos o tres decisiones, cada una con la alternativa que descartaste y el número que la sostiene. |
 | 4. Evaluación y límites | 5 | 3 | Tu suite: sin RAG vs con RAG, selección de herramientas, agente solo vs equipo. Un fallo clasificado. Qué no funciona todavía. |
-| 5. Producción y go / no-go | 5 | 2 | Tu práctica de producción con su evidencia (traza, costo por mes, test). ¿Lo liberarías? ¿Por qué? |
+| 5. Producción, go / no-go y cómo seguir | 5 | 2 | Tu práctica de producción con su evidencia (traza, costo por mes, test). ¿Lo liberarías? ¿Por qué? Y la última slide, «Cómo sigue»: lo que no funciona todavía, la próxima prueba y lo que querés que te comenten. |
 
 **El diagrama en la slide:** Google Slides y PowerPoint no dibujan Mermaid. Pegá tu dibujo en
 [mermaid.live](https://mermaid.live) (como en la práctica M7, paso 3) y, abajo a la izquierda, en **Actions**:
